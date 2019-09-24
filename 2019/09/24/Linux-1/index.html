@@ -6,19 +6,70 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hello World | Hexo</title>
+  <title>Linux 简明教程 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Linux 简明教程（一）1 写在前面为什么写——首先是整理笔记给自己看，其次希望这篇教程可以作为一篇引桥课程，尽可能降低 Linux 的学习难度，帮助学习更加专业难懂的 Linux 课程。 写给谁看——需要使用 Linux 但不需要维护 Linux 的人。 写了什么——大部分内容都是复读《鸟哥的 Linux 私房菜》这篇教程，主要介绍一些更好用的学习工具。比如现在大部分教程内使用的 Shell">
+<meta name="keywords" content="Linux">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/09/24/hello-world/index.html">
+<meta property="og:title" content="Linux 简明教程">
+<meta property="og:url" content="http://yoursite.com/2019/09/24/Linux-1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Linux 简明教程（一）1 写在前面为什么写——首先是整理笔记给自己看，其次希望这篇教程可以作为一篇引桥课程，尽可能降低 Linux 的学习难度，帮助学习更加专业难懂的 Linux 课程。 写给谁看——需要使用 Linux 但不需要维护 Linux 的人。 写了什么——大部分内容都是复读《鸟哥的 Linux 私房菜》这篇教程，主要介绍一些更好用的学习工具。比如现在大部分教程内使用的 Shell">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-24T06:37:40.113Z">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/w6uhvcZ5yOpdBtn.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/czJgK8oh1CrdNuf.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/TjO4slENYX8DwBC.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/kUjxugadc6W3Mhw.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/v4wWtIVu1r6Sejm.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/ihUXJYx3gq2WvkL.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/nilvs4IZ3kLRwr1.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/AKzY5cf2BQMwSRd.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/OdhxKokLtfIy2Dq.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/u1CYLpqiXvJ6Sr7.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/tD18TbRQCsprU3g.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/rSebjRq5TKlPVxu.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/tMorRukO4GDm8BW.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/d6DgkyXKRCPWizq.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/AkasK5rZqMeoGRm.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/JvQn5jREWIyKwcL.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/20/miNIPQrJen3vTXb.png">
+<meta property="og:image" content="https://screenshotting.site/i/7f6c08.png">
+<meta property="og:image" content="https://screenshotting.site/i/5b4a97.png">
+<meta property="og:image" content="https://screenshotting.site/i/800716.png">
+<meta property="og:image" content="https://screenshotting.site/i/7c2f44.png">
+<meta property="og:image" content="https://screenshotting.site/i/2040d1.png">
+<meta property="og:image" content="https://screenshotting.site/i/b41dd3.png">
+<meta property="og:image" content="https://screenshotting.site/i/6a4e32.png">
+<meta property="og:image" content="https://screenshotting.site/i/b70a2a.png">
+<meta property="og:image" content="https://screenshotting.site/i/361658.png">
+<meta property="og:image" content="https://screenshotting.site/i/df6fcb.png">
+<meta property="og:image" content="https://screenshotting.site/i/28ce2a.png">
+<meta property="og:image" content="https://screenshotting.site/i/517813.png">
+<meta property="og:image" content="https://screenshotting.site/i/a8fdba.png">
+<meta property="og:image" content="https://screenshotting.site/i/85d232.png">
+<meta property="og:image" content="https://screenshotting.site/i/67380f.png">
+<meta property="og:image" content="https://screenshotting.site/i/016229.png">
+<meta property="og:image" content="https://screenshotting.site/i/05b6dd.png">
+<meta property="og:image" content="https://screenshotting.site/i/92c8be.png">
+<meta property="og:image" content="https://screenshotting.site/i/d7c39a.png">
+<meta property="og:image" content="https://screenshotting.site/i/08fc7f.png">
+<meta property="og:image" content="https://screenshotting.site/i/41b9ec.png">
+<meta property="og:image" content="https://screenshotting.site/i/15f8d7.png">
+<meta property="og:image" content="https://screenshotting.site/i/f19830.png">
+<meta property="og:image" content="https://screenshotting.site/i/50e772.png">
+<meta property="og:image" content="https://screenshotting.site/i/bcc7f6.png">
+<meta property="og:image" content="https://screenshotting.site/i/83abad.png">
+<meta property="og:image" content="https://screenshotting.site/i/cf9e4d.png">
+<meta property="og:image" content="https://screenshotting.site/i/a3792d.png">
+<meta property="og:image" content="https://screenshotting.site/i/26c06e.png">
+<meta property="og:image" content="https://screenshotting.site/i/e54f78.png">
+<meta property="og:image" content="https://screenshotting.site/i/2295e8.png">
+<meta property="og:image" content="https://screenshotting.site/i/f0e1bc.png">
+<meta property="og:updated_time" content="2019-09-24T07:01:53.368Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="Linux 简明教程">
+<meta name="twitter:description" content="Linux 简明教程（一）1 写在前面为什么写——首先是整理笔记给自己看，其次希望这篇教程可以作为一篇引桥课程，尽可能降低 Linux 的学习难度，帮助学习更加专业难懂的 Linux 课程。 写给谁看——需要使用 Linux 但不需要维护 Linux 的人。 写了什么——大部分内容都是复读《鸟哥的 Linux 私房菜》这篇教程，主要介绍一些更好用的学习工具。比如现在大部分教程内使用的 Shell">
+<meta name="twitter:image" content="https://i.loli.net/2019/09/20/w6uhvcZ5yOpdBtn.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,39 +205,207 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Linux-1" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Linux 简明教程
     </h1>
   
 
         
-        <a href="/2019/09/24/hello-world/" class="archive-article-date">
-  	<time datetime="2019-09-24T06:37:40.113Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-24</time>
+        <a href="/2019/09/24/Linux-1/" class="archive-article-date">
+  	<time datetime="2019-09-24T06:59:16.852Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-24</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <h1 id="Linux-简明教程（一）"><a href="#Linux-简明教程（一）" class="headerlink" title="Linux 简明教程（一）"></a>Linux 简明教程（一）</h1><h2 id="1-写在前面"><a href="#1-写在前面" class="headerlink" title="1 写在前面"></a>1 写在前面</h2><p>为什么写——首先是整理笔记给自己看，其次希望这篇教程可以作为一篇引桥课程，尽可能降低 Linux 的学习难度，帮助学习更加专业难懂的 Linux 课程。</p>
+<p>写给谁看——需要使用 Linux 但不需要维护 Linux 的人。</p>
+<p>写了什么——大部分内容都是复读《鸟哥的 Linux 私房菜》这篇教程，主要介绍一些更好用的学习工具。比如现在大部分教程内使用的 Shell 是 bash ，或许 zsh 是更好的选择。</p>
+<p>好了我们开始吧！</p>
+<h2 id="2-Linux-简介"><a href="#2-Linux-简介" class="headerlink" title="2 Linux 简介"></a>2 Linux 简介</h2><p>关于 Linux 的发展历史可以参考鸟哥的介绍……</p>
+<h2 id="3-部署学习环境"><a href="#3-部署学习环境" class="headerlink" title="3 部署学习环境"></a>3 部署学习环境</h2><p>​这里我们选择使用虚拟机软件搭建学习环境，因为学习的过程中有很多意外，而且学习是一个试错的过程，虚拟机可以分离实验环境与真机环境，遇到问题我们可以随时切回 Win 系统百度解决。另外合理使用虚拟机的快照功能，能帮助我们节省大量搞崩系统重新安装的等待时间。一般重装 Linux 系统需要 20-30 分钟，在虚拟机中恢复快照只需要 30 秒。</p>
+<h3 id="3-1-需要准备的工具"><a href="#3-1-需要准备的工具" class="headerlink" title="3.1 需要准备的工具"></a>3.1 需要准备的工具</h3><blockquote>
+<p><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html" target="_blank" rel="noopener"><strong>VmwareWorkStation 15</strong></a>——虚拟机软件</p>
+<p><a href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/kde/18.1.0/manjaro-kde-18.1.0-stable-x86_64.iso" target="_blank" rel="noopener"><strong>Manjaro 18.1.0 (x86_64, kde)</strong></a>——Linux 系统发行版，版本号是 18.1.0，x86 架构 64 位系统，内置 KDE 桌面环境。</p>
+<p>​上面的 Manjaro 安装镜像来自<a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学开源镜像站</a>，因为官网下载比较慢。<br>​Linux 有很多第三方桌面环境或者窗口管理器，<a href="https://kde.org/" target="_blank" rel="noopener">KDE</a> 是其中之一。常见的桌面环境有 <a href="https://kde.org/" target="_blank" rel="noopener">KDE</a> ，<a href="https://www.gnome.org/" target="_blank" rel="noopener">GNOME</a> ，<a href="https://xfce.org/" target="_blank" rel="noopener">Xfce</a> 等。常见的窗口管理器有 <a href="https://i3wm.org/" target="_blank" rel="noopener">i3</a> ，<a href="https://swaywm.org/" target="_blank" rel="noopener">sway</a> 等。</p>
+</blockquote>
+<h3 id="3-2-配置-VM-虚拟机"><a href="#3-2-配置-VM-虚拟机" class="headerlink" title="3.2 配置 VM 虚拟机"></a>3.2 配置 VM 虚拟机</h3><ul>
+<li><p>打开安装好的 VM 15 虚拟机软件，选择<code>文件</code>–&gt;<code>新建虚拟机</code>，创建一个新的虚拟机用来安装 Manjaro<br><img src="https://i.loli.net/2019/09/20/w6uhvcZ5yOpdBtn.png" alt="新建虚拟机"></p>
+</li>
+<li><p>选择 <code>典型</code> 然后点击 <code>下一步</code><br><img src="https://i.loli.net/2019/09/20/czJgK8oh1CrdNuf.png" alt="典型 下一步"></p>
+</li>
+<li><p>选择映像文件安装然后点击 <code>下一步</code><br><img src="https://i.loli.net/2019/09/20/TjO4slENYX8DwBC.png" alt="选择镜像 下一步"></p>
+</li>
+<li><p>客户机操作系统选择 <code>Linux</code>–&gt;<code>其它 Linux 4.x 或更高版本内核 64 位</code>，然后点击<code>下一步</code><br><img src="https://i.loli.net/2019/09/20/kUjxugadc6W3Mhw.png" alt="选择操作系统 下一步"></p>
+</li>
+<li><p>设置<code>虚拟机名称</code>和虚拟机文件的<code>位置</code>，点击<code>下一步</code><br><img src="https://i.loli.net/2019/09/20/v4wWtIVu1r6Sejm.png" alt="设置名称"></p>
+</li>
+<li><p>设置虚拟机<code>最大磁盘大小</code>为 40 G ，然后点击<code>下一步</code><br><img src="https://i.loli.net/2019/09/20/ihUXJYx3gq2WvkL.png" alt="磁盘大小"></p>
+</li>
+<li><p>设置虚拟机<code>内存</code>为 2 G ，点击<code>处理器</code><br><img src="https://i.loli.net/2019/09/20/nilvs4IZ3kLRwr1.png" alt="设置内存2G"></p>
+</li>
+<li><p>推荐 <code>CPU 内核数</code>至少两个，然后勾选下面<code>虚拟化引擎</code>的前两个复选框，然后点击<code>关闭</code><br><img src="https://i.loli.net/2019/09/20/AKzY5cf2BQMwSRd.png" alt="设置CPU"></p>
+</li>
+<li><p>检查设置没有问题后点击<code>完成</code><br><img src="https://i.loli.net/2019/09/20/OdhxKokLtfIy2Dq.png" alt="完成"></p>
+</li>
+</ul>
+<h3 id="3-3-安装-Manjaro"><a href="#3-3-安装-Manjaro" class="headerlink" title="3.3 安装 Manjaro"></a>3.3 安装 Manjaro</h3><ul>
+<li><p>点击<code>开启此虚拟机</code>开始安装 Manjaro<br><img src="https://i.loli.net/2019/09/20/u1CYLpqiXvJ6Sr7.png" alt="开启虚拟机"></p>
+</li>
+<li><p>移动高亮到 <code>tz=UTC</code> 按 <code>Enter</code> 进入选择时区设置<br><img src="https://i.loli.net/2019/09/20/tD18TbRQCsprU3g.png" alt="设置时区"></p>
+</li>
+<li><p>选择 <code>Asia</code> 按 <code>Enter</code><br><img src="https://i.loli.net/2019/09/20/rSebjRq5TKlPVxu.png" alt="选亚洲"></p>
+</li>
+<li><p>选择 <code>Asia/Shanghai</code> ，按 <code>Enter</code> 确认选择<br><img src="https://i.loli.net/2019/09/20/tMorRukO4GDm8BW.png" alt="选上海"></p>
+</li>
+<li><p>移动高亮到 <code>Boot: Manjaro.x86_64 kde</code> ，按 <code>Enter</code> 开始安装<br><img src="https://i.loli.net/2019/09/20/d6DgkyXKRCPWizq.png" alt="启动"></p>
+</li>
+<li><p>安装过程中可能会提醒安装 VMware tools ，但是 Manjaro 不能直接安装 VMware tools ，所以选择<code>不再提醒</code>，之后我们会手动安装兼容 Manjaro 发行版的 VMware tools<br><img src="https://i.loli.net/2019/09/20/AkasK5rZqMeoGRm.png" alt="不再提醒"></p>
+</li>
+<li><p>选择<code>中文语言 Chinese(China)</code> ，然后点击<code>启动安装程序</code>开始安装<br><img src="https://i.loli.net/2019/09/20/JvQn5jREWIyKwcL.png" alt="开始安装"></p>
+</li>
+<li><p>选择<code>简体中文</code>，点击<code>下一步</code><br><img src="https://i.loli.net/2019/09/20/miNIPQrJen3vTXb.png" alt="语言"></p>
+</li>
+<li><p><code>地区：Asia</code> ，<code>区域：Shanghai</code> ，剩下两项设置简体中文，点击<code>下一步</code><br><img src="https://screenshotting.site/i/7f6c08.png" alt="时区"></p>
+</li>
+<li><p>键盘选择 <code>Chinese--default即可</code>，点击<code>下一步</code><br><img src="https://screenshotting.site/i/5b4a97.png" alt="键盘"></p>
+</li>
+<li><p>这里我们就不手动分区了，选择<code>抹除磁盘</code>，让安装程序自动分区，记得其他选项和下图一致，点击<code>下一步</code><br><img src="https://screenshotting.site/i/800716.png" alt="分区"></p>
+</li>
+<li><p>设置<code>用户名</code>和 <code>root</code> 密码<br><img src="https://screenshotting.site/i/7c2f44.png" alt="密码"></p>
+</li>
+<li><p>安装办公软件，我们不需要，选择 <code>No Office Suite</code><br><img src="https://screenshotting.site/i/2040d1.png" alt="不安装office"></p>
+</li>
+<li><p>确认配置后，点击<code>安装</code><br><img src="https://screenshotting.site/i/b41dd3.png" alt="安装"></p>
+</li>
+<li><p>根据你的机器配置，大概等待 10-30 分钟，即可完成安装，勾选<code>现在重启</code>，点击<code>完成</code><br><img src="https://screenshotting.site/i/6a4e32.png" alt="重启"></p>
+</li>
+<li><p>重启进入系统，因为没有安装 VMware tools ，分辨率只有 800x600<br><img src="https://screenshotting.site/i/b70a2a.png" alt="分辨率只有800*600"></p>
+</li>
+</ul>
+<h3 id="3-4-安装-VMware-tools"><a href="#3-4-安装-VMware-tools" class="headerlink" title="3.4 安装 VMware tools"></a>3.4 安装 VMware tools</h3><ul>
+<li><p>接下来我们把软件的下载源换换到国内，否则下载速度非常慢<br>打开 KDE 的默认终端 <code>konsole</code></p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span> sudo pacman-mirrors -i -c China -m rank</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>pacman 是 Manjaro 的软件包管理软件。<br>这个命令可以把 pacman 里面的中国镜像源按照延迟排序。运行这条命令需要 root 权限，输入之前设置的 root 密码（输入的时候屏幕不会显示任何字符，输入之后回车即可）。<br><img src="https://screenshotting.site/i/361658.png" alt="root密码"></p>
+</li>
+<li><p>等待一会弹出对话框，任选一个勾选，然后点击ok即可，这里我选择勾选清华的镜像源<br><img src="https://screenshotting.site/i/df6fcb.png" alt="选择清华源"></p>
+</li>
+<li><blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>sudo pacman -Syu # 更新系统</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://screenshotting.site/i/28ce2a.png" alt="更新系统"></p>
+</li>
+<li><p>接下来开始安装 VMware tools</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>~</span><br><span class="line"><span class="meta">&gt;</span>$ cd ~</span><br><span class="line"><span class="meta">&gt;</span>$ sudo pacman -R open-vm-tools # 卸载系统自带的open-vm-tools</span><br><span class="line"><span class="meta">&gt;</span>$ git clone https://github.com/rasa/vmware-tools-patches.git # 下载别人制作的补丁版VMware tools</span><br><span class="line"><span class="meta">&gt;</span>$ cd vmware-tools-patches</span><br><span class="line"><span class="meta">&gt;</span>$ sudo ./patched-open-vm-tools.sh # 执行安装</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+<li><p>安装完成之后，关闭客户机（在工具栏上），再配置虚拟机的设置。<br>点击<code>编辑虚拟机设置</code><br><img src="https://screenshotting.site/i/517813.png" alt="虚拟机设置"></p>
+</li>
+<li><p>点击<code>显示器</code>，勾选<code>加速 3D 图形</code>，设置<code>图形内存</code>为<code>推荐</code>。<br><img src="https://screenshotting.site/i/a8fdba.png" alt="图形加速设置"></p>
+</li>
+<li><p>点击<code>选项</code>，点击<code>VMware tools</code>，勾选<code>客户机时间与主机同步</code>。（如果之前已经勾选，需要取消勾选，然后重启再重新勾选。），点击<code>确定</code>完成设置<br><img src="https://screenshotting.site/i/85d232.png" alt="同步时间"></p>
+</li>
+<li><p>点击<code>查看</code>–<code>自动调整大小</code>–<code>自动适应窗口</code>。现在就可以通过调整 VM 窗口的大小来调整系统分辨率了<br><img src="https://screenshotting.site/i/67380f.png" alt="自动大小"></p>
+</li>
+<li><p>重启进入系统<br><img src="https://screenshotting.site/i/016229.png" alt="可以正常使用了"></p>
+<p>安装 VMware tools 后虚拟机和物理机可以共用剪切板，下面的命令都可以复制粘贴</p>
+</li>
+</ul>
+<h3 id="3-5-配置软件包管理"><a href="#3-5-配置软件包管理" class="headerlink" title="3.5 配置软件包管理"></a>3.5 配置软件包管理</h3><h4 id="3-5-1-添加中科大的archcn软件仓库镜像"><a href="#3-5-1-添加中科大的archcn软件仓库镜像" class="headerlink" title="3.5.1 添加中科大的archcn软件仓库镜像"></a>3.5.1 添加中科大的archcn软件仓库镜像</h4><ul>
+<li><blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>~</span><br><span class="line"><span class="meta">&gt;</span>$ sudo pacman -S code # 安装微软的文本编辑器——VS Code</span><br><span class="line"><span class="meta">&gt;</span>$ sudo code /etc/pacman.conf # 用VS Code打开pacman的配置文件</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+<p>  在文档末尾添加</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line">Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>  <img src="https://screenshotting.site/i/05b6dd.png" alt="archcn源"></p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>sudo pacman -Syy # 更新软件源</span><br><span class="line"><span class="meta">&gt;</span>sudo pacman -S archlinuxcn-keyring</span><br><span class="line"></span><br><span class="line">你可能已经发现，pacman 是一个非常重要的命令，那么怎样使用它呢？</span><br><span class="line">常用的 pacman 命令</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;</span>```shell</span><br><span class="line"><span class="meta">&gt;</span>pacman -Ss name # 搜索软件</span><br><span class="line"><span class="meta">&gt;</span>pacman -S  name  # 安装软件</span><br><span class="line"><span class="meta">&gt;</span>pacman -R name # 卸载软件</span><br><span class="line"><span class="meta">&gt;</span>pacman -Syy    # 更新软件源</span><br><span class="line"><span class="meta">&gt;</span>pacman -Syu    # 更新系统及所有软件</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="3-5-6-安装-yay-——-AUR-软件包管理"><a href="#3-5-6-安装-yay-——-AUR-软件包管理" class="headerlink" title="3.5.6 安装 yay —— AUR 软件包管理"></a>3.5.6 安装 yay —— AUR 软件包管理</h4><ul>
+<li><p>这里有一个问题，怎样安装不知道名称的软件呢？<br>我们可以先用 <code>pacman -Ss yay</code>搜索软件，查看具体的软件名<br><img src="https://screenshotting.site/i/92c8be.png" alt="搜索yay"><br>可以看到 yay 的软件名就是 yay</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">  &gt;</span>~</span><br><span class="line"><span class="meta">  &gt;</span>$ sudo pacman -S yay # 安装 yay</span><br><span class="line"><span class="meta">  &gt;</span>$ yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save # 修改 yay 的软件源为清华源</span><br><span class="line"><span class="meta">  &gt;</span>$ yay -P -g # 如果显示 aururl 项的值为 "https://aur.tuna.tsinghua.edu.cn" 则修改成功</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span>## 3.6 设置 zsh 为默认 Shell</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span>### 3.6.1 安装 zsh 并设为默认</span><br><span class="line"></span><br><span class="line">- &gt;```shell</span><br><span class="line"><span class="meta">  &gt;</span>~</span><br><span class="line"><span class="meta">  &gt;</span>$ sudo pacman -S zsh # 安装 zsh ，Manjaro 内置的 zsh 可能是最新版，如果提示是最新版就不用安装</span><br><span class="line"><span class="meta">  &gt;</span>$ chsh -s /bin/zsh # 设置 zsh 为默认 Shell</span><br><span class="line"><span class="meta">  &gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://screenshotting.site/i/d7c39a.png" alt="配置终端"></p>
+<p>接下来在 <code>konsole</code> 中设置默认的 Shell<br>新建<code>配置方案</code><br><img src="https://screenshotting.site/i/08fc7f.png" alt="新建配置"><br><img src="https://screenshotting.site/i/41b9ec.png" alt="zsh配置"></p>
+<p>在<code>外观</code>选项中，设置<code>配色</code>与<code>字体</code><br><img src="https://screenshotting.site/i/15f8d7.png" alt="zsh外观"></p>
+<p>重启终端令设置生效</p>
+</li>
+</ul>
+<h4 id="3-6-2-下载-zsh-主题与插件"><a href="#3-6-2-下载-zsh-主题与插件" class="headerlink" title="3.6.2 下载 zsh 主题与插件"></a>3.6.2 下载 zsh 主题与插件</h4><ul>
+<li><blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # 安装 oh-my-zsh 主题插件</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://screenshotting.site/i/f19830.png" alt="oh-my-zsh"></p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>~</span><br><span class="line"><span class="meta">&gt;</span>$ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" # 下载 oh-my-zsh 主题——spaceship-prompt</span><br><span class="line"><span class="meta">&gt;</span>$ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" # 将下载的主题文件软链到 zsh 主题文件夹内</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://screenshotting.site/i/50e772.png" alt="下载sapceship主题"></p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span> git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions # 下载自动补全插件 zsh-autosuggestions</span><br><span class="line"><span class="meta">&gt;</span>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;/plugins/zsh-syntax-highlighting # 下载语法高亮插件 zsh-syntax-highlighting</span><br><span class="line"><span class="meta">&gt;</span>sudo pacman -S autojump # 安装自动跳转目录插件 autojump</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+<h4 id="3-6-3-配置-zshrc"><a href="#3-6-3-配置-zshrc" class="headerlink" title="3.6.3 配置 ~/.zshrc"></a>3.6.3 配置 ~/.zshrc</h4><ul>
+<li><blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>code ~/.zshrc # 打开 zsh 的配置文件</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>找到 <code>ZSH_THEME</code> ，改成 <code>ZSH_THEME=&quot;spaceship&quot;</code><br><img src="https://screenshotting.site/i/bcc7f6.png" alt="设置sapce主题"></p>
+<p>找到 <code># ENABLE_CORRECTION=&quot;true&quot;</code> ，去掉前面的 <code>#</code>，开启命令自动更正功能，这样我们打错命令时，zsh 可以帮助我们更正<br><img src="https://screenshotting.site/i/83abad.png" alt="自动更正"></p>
+<p>找到 <code>plugins=(git)</code>，再括号里添加 <code>zsh-autosuggestions</code> <code>colored-man-pages</code> <code>zsh-syntax-highlighting</code><br><img src="https://screenshotting.site/i/cf9e4d.png" alt="启用插件"></p>
+<p>保存，重启终端令设置生效<br><img src="https://screenshotting.site/i/a3792d.png" alt="配置完成"><br>因为再以后的学习过程中，需要经常切换到 root 账户，所以我们把配置文件复制给 root 账户</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>cp ./.zshrc zshrc</span><br><span class="line"><span class="meta">&gt;</span>code zshrc</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>修改 <code>export ZSH=&quot;/root/.oh-my-zsh&quot;</code>，保存<br><img src="https://screenshotting.site/i/26c06e.png" alt="修改目录"></p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>su -</span><br><span class="line"><span class="meta">&gt;</span>cp -r /home/hua/.oh-my-zsh ~/.oh-my-zsh/</span><br><span class="line"><span class="meta">&gt;</span>cp /home/hua/zshrc .zshrc</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>重启终端</p>
+<blockquote>
+<p><code>su -</code></p>
+</blockquote>
+<p>如果显示和下图一样，则配置成功<br><img src="https://screenshotting.site/i/e54f78.png" alt="root的配置完成"></p>
+</li>
+</ul>
+<h3 id="3-7-安装常用软件"><a href="#3-7-安装常用软件" class="headerlink" title="3.7 安装常用软件"></a>3.7 安装常用软件</h3><h4 id="3-7-1-Vim"><a href="#3-7-1-Vim" class="headerlink" title="3.7.1 Vim"></a>3.7.1 Vim</h4><ul>
+<li><p>我们已经有文本编辑器 VS Code 了，为什么还要用 Vim 呢？<br>因为在root环境下，code 命令无法打开文件，你可以试试</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>su -</span><br><span class="line"><span class="meta">&gt;</span>code ~/.zshrc</span><br><span class="line"></span><br><span class="line">Vim的安装十分简单</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;</span>```shell</span><br><span class="line"><span class="meta">&gt;</span>sudo pacman -S vim</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+<h4 id="3-7-2-GoodenDict"><a href="#3-7-2-GoodenDict" class="headerlink" title="3.7.2 GoodenDict"></a>3.7.2 GoodenDict</h4><ul>
+<li><p>一款支持屏幕取词的翻译软件</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>sudo pacman -S goldendict</span><br><span class="line"><span class="meta">&gt;</span>sudo pacman -S translate-shell</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>打开 GoldenDict , 点击<code>编辑</code>–&gt;<code>词典</code>–&gt;<code>词典来源</code>–&gt;<code>程序</code>–&gt;<code>添加</code>勾选<code>已启用</code><br><code>类型</code>选择<code>纯文本</code><br><code>名称</code>填写 <code>google</code><br><code>命令行</code>填写 <code>trans -e google -s auto -t zh-CN -show-original y -show-original-phonetics n -show-translation y -no-ansi -show-translation-phonetics n -show-prompt-message n -show-languages y -show-original-dictionary n -show-dictionary n -show-alternatives n “%GDWORD%”</code><br>点击<code>应用</code>，<code>确定</code><br><img src="https://screenshotting.site/i/2295e8.png" alt="goldendict"></p>
+</li>
+</ul>
+<h4 id="3-7-3-搜狗拼音输入法"><a href="#3-7-3-搜狗拼音输入法" class="headerlink" title="3.7.3 搜狗拼音输入法"></a>3.7.3 搜狗拼音输入法</h4><ul>
+<li><blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span>sudo pacman -S fcitx-im</span><br><span class="line"><span class="meta">&gt;</span>sudo pacman -S fcitx-configtool</span><br><span class="line"><span class="meta">&gt;</span>sudo pacman -S fcitx-sogoupinyin</span><br><span class="line"><span class="meta">&gt;</span>sudo touch ~/.xprofile</span><br><span class="line"><span class="meta">&gt;</span>export GTK_IM_MODULE=fcitx</span><br><span class="line"><span class="meta">&gt;</span>export QT_IM_MODULE=fcitx</span><br><span class="line"><span class="meta">&gt;</span>export XMODIFIERS="@im=fcitx"</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>重启，在开始菜单中搜索<code>fcitx配置</code>，设置默认输入法为搜狗输入法即可</p>
+</li>
+</ul>
+<h2 id="4-备份虚拟机"><a href="#4-备份虚拟机" class="headerlink" title="4.备份虚拟机"></a>4.备份虚拟机</h2><ul>
+<li>至此，所有的配置已经完成了，点击VM15工具栏上的拍摄快照按钮，备份当前虚拟机，以后不管怎么折腾都可以瞬间恢复现在的样子。<br><img src="https://screenshotting.site/i/f0e1bc.png" alt="虚拟机备份"></li>
+</ul>
 
       
 
@@ -216,7 +435,29 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Linux//" class="article-tag-list-link color1">Linux</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -266,7 +507,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/24/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/24/Linux-1/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -280,15 +521,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/09/24/Linux-1/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Linux 简明教程
-        
-      </div>
-    </a>
   
+    <a href="/2019/09/24/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
